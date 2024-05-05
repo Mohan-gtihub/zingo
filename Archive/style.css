@@ -10796,8 +10796,8 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
   .py-md-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
   .pt-md-0 {
     padding-top: 0 !important;
@@ -13836,7 +13836,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: var(--cnvs-heading-color);
+  color: black;
   font-weight: var(--cnvs-headings-font-weight);
   line-height: var(--cnvs-line-height-base);
   margin: 0 0 30px 0;
@@ -25276,7 +25276,7 @@ td.actions {
 
 .bg-appstore,
 .h-bg-appstore:hover {
-  background-color: rgba(var(--cnvs-color-appstore-rgb), 1) !important;
+  background-color: rgba(0,0,0,0) !important;
 }
 
 .bg-pinterest,
@@ -33538,7 +33538,7 @@ img.mfp-img {
   --cnvs-primary-menu-submenu-bg: var(--cnvs-contrast-bg);
   --cnvs-section-bg: var(--cnvs-contrast-bg-offset);
   --cnvs-footer-bg: var(--cnvs-contrast-bg-offset);
-  color: var(--cnvs-contrast-800);
+  color: black;
 }
 body.dark {
   --cnvs-body-bg: var(--cnvs-contrast-bg);
@@ -33559,3 +33559,28 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+#pricing{
+  margin-left:250px ;
+  padding-bottom: 100px;
+}
+
+#award{
+  color: #E11405ff;
+  width: 100px ;
+}
+#vid{
+  background-color: white ;
+
+}
+
+#vid1{
+  color: black;
+}
+#sp{
+  color: black;
+}
+#id{
+  color: black;
+  border-color: black;
+}

@@ -99,10 +99,11 @@ body.dark,
 .section-showcase-sticky .list-group-content > div {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: ;
 	padding-left: 4rem;
 	padding-right: 4rem;
 	border-bottom: 1px solid rgba(255,255,255, .15);
+	margin-bottom:-30px ;
 }
 
 .toggle.border-bottom {
